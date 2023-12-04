@@ -63,25 +63,61 @@ To run this project locally, follow these steps:
 
 ## <div align="center"><span style="color: #3498db;">File and Folder Structure</span></div>
 
-dataset folder: Contains all the csv files of the dataset, which we used for data analysis.
-notebook folder: Conatins all the notebooks of the Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
-python files: This folder contains the .py files of Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
-final-plot.ipynb: This notebook contains the code for all the plots given in our presenation.
-main.ipynb: This notebook contains the consilated codes for all the analysis we have done.
-main.py: This the .py file for main.ipynb file, which contains the consilated codes for all the analysis we have done.
-final-presentation.pdf: This is our final presenation.
-ECE 143 - Project proposal.pdf: This is our project proposal
+1. dataset folder: Contains all the csv files of the dataset, which we used for data analysis.
+2. notebook folder: Conatins all the notebooks of the Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
+3. python files: This folder contains the .py files of Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
+4. final-plot.ipynb: This notebook contains the code for all the plots given in our presenation.
+5. main.ipynb: This notebook contains the consilated codes for all the analysis we have done.
+6. main.py: This the .py file for main.ipynb file, which contains the consilated codes for all the analysis we have done
+7. final-presentation.pdf: This is our final presenation.
+8. ECE 143 - Project proposal.pdf: This is our project proposal
+9. README file
 
 ```text
-Final Project Files/
+Files/
+├── dataset/
+│   ├── pd_beats_datasd/
+│   │   ├── pd_beats_datasd.cpg
+│   │   ├── pd_beats_datasd.dbf
+│   │   ├── pd_beats_datasd.prj
+│   │   ├── pd_beats_datasd.shp
+│   │   ├── pd_beats_datasd.shx
+│   ├── pd_divisions_datasd/
+│   │   ├── pd_divisions_datasd.cpg
+│   │   ├── pd_divisions_datasd.dbf
+│   │   ├── pd_divisions_datasd.prj
+│   │   ├── pd_divisions_datasd.shp
+│   │   ├── pd_divisions_datasd.shx
+│   ├── final_combined_dataset_v2.csv
+│   ├── final_combined_dataset_v3.csv
+│   ├── vehicle_stops_2014_datasd.csv
+│   ├── vehicle_stops_2015_datasd.csv
+│   ├── vehicle_stops_2016_datasd.csv
+│   ├── vehicle_stops_2017_datasd.csv
+│   ├── vehicle_stops_dictionary.csv
+│   ├── vehicle_stops_final_datasd.csv
+│   ├── vehicle_stops_race_codes.csv
+│   ├── vehicle_stops_search_details_2014_datasd.csv
+│   ├── vehicle_stops_search_details_2015_datasd.csv
+│   ├── vehicle_stops_search_details_2016_datasd.csv
+│   ├── vehicle_stops_search_details_2017_datasd.csv
+├── notebooks/
+│   ├── age_vs_reason_action.ipynb
+│   ├── complete_data_cleaning_and_label_encoding.ipynb
+│   ├── exploratory_data_analysis.ipynb
+│   ├── geospatial_analysis.ipynb
+│   ├── temporal_analysis.ipynb
+├── python/
+│   ├── age_vs_reason_action.py
+│   ├── complete_data_cleaning_and_label_encoding.py
+│   ├── exploratory_data_analysis.py
+│   ├── geospatial_analysis.py
+│   ├── temporal_analysis.py
+├── ECE 143 - Project proposal.pdf
+├── final-plot.ipynb
+├── final-presentation.pdf
 ├── main.py
-│
-├── plots/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── views.py
-│   ├── api.py
-│   ├── requirements.txt
+├── main.ipynb
 └── README.md  
 ```
 
