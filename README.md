@@ -53,7 +53,14 @@ To run this project locally, follow these steps:
     ```
 
 ## <div align="center"><span style="color: #3498db;">External Modules & Libraries</span></div>
-Following are some of the external libraries and modules used in the project
+1. numpy
+2. pandas
+3. matplotlib
+4. seaborn
+5. datetime
+6. geopandas
+7. collections
+8. 
 
 ## <div align="center"><span style="color: #3498db;">File and Folder Structure</span></div>
 
