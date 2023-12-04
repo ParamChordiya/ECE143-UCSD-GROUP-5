@@ -63,6 +63,15 @@ To run this project locally, follow these steps:
 
 ## <div align="center"><span style="color: #3498db;">File and Folder Structure</span></div>
 
+dataset folder: Contains all the csv files of the dataset, which we used for data analysis.
+notebook folder: Conatins all the notebooks of the Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
+python files: This folder contains the .py files of Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
+final-plot.ipynb: This notebook contains the code for all the plots given in our presenation.
+main.ipynb: This notebook contains the consilated codes for all the analysis we have done.
+main.py: This the .py file for main.ipynb file, which contains the consilated codes for all the analysis we have done.
+final-presentation.pdf: This is our final presenation.
+ECE 143 - Project proposal.pdf: This is our project proposal
+
 ```text
 Final Project Files/
 ├── main.py
