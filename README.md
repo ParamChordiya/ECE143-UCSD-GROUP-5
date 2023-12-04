@@ -60,7 +60,6 @@ To run this project locally, follow these steps:
 5. datetime
 6. geopandas
 7. collections
-8. 
 
 ## <div align="center"><span style="color: #3498db;">File and Folder Structure</span></div>
 
