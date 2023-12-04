@@ -31,10 +31,10 @@ Understanding the relationship between "Subject_race" and the actions taken duri
 
 ## <div align="center"><span style="color: #27ae60;">Analysis Overview</span></div>
 Some important analysis performed can be categorized as:
+- Exploratory Data Analysis
 - Temporal Analysis
 - Geospatial Analysis
-- Age Vs. Reason for Stopping
-- Race Vs. Action Taken
+- Demographic Analysis
 
 ## <div align="center"><span style="color: #e67e22;">Installation</span></div>
 
