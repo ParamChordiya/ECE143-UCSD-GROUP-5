@@ -19,7 +19,7 @@
 Understanding and analyzing the temporal, geospatial and demographic distributions of police vehicle stops is a critical issue that has wide-ranging implications for community safety, law enforcement practices, and the protection of civil rights. It is essential to recognize that data analysis in this context is not just a technical endeavor but a way to shed light on potentially systemic issues that could affect people's lives. This project can serve as a powerful tool to promote transparency, accountability, and fair policing practices. By revealing patterns and trends in police vehicle stops, we can help bridge the gap between law enforcement and the communities they serve.
 
 
-- ***Enhancing Accountability and Transparency:*** 
+- <u> ***Enhancing Accountability and Transparency:*** </u>
 Understanding when police vehicle stops occur, as indicated by the "Timestamp," "Stop_date," and "Stop_time," can lead to increased accountability within law enforcement agencies. By analyzing this temporal
 data, we aim to shed light on potential patterns, uncover any irregularities in the timing of stops, and promote transparency in law enforcement practices.
 - ***Promoting Equitable Resource Allocation:***
