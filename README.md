@@ -127,4 +127,4 @@ Dataset: [Police Vehicle Stops Search Details - San Diego.](https://data.sandieg
 
 ## <div align="center"><span style="color: #9b59b6;">Results</span></div>
 
-Check out the detailed analysis in our [<span style="color: #3498db;">Presentation Report</span>](reports/analysis_report.pdf).
+Check out the detailed analysis in our [<span style="color: #3498db;">Presentation</span>](final-presentation.pdf).
