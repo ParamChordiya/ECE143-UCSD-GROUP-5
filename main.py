@@ -1082,6 +1082,38 @@ def arrest_data_for_plotting(stops, beats, divisions):
 arrest_data_div = arrest_data_for_plotting(df_stops, df_beats, df_divisions)
 plot_map(arrest_data_div)
 
+def plot_temporal_analysis(df):
+    """
+    Generate and display temporal analysis plots for a given DataFrame.
+
+    Parameters:
+    - df (pd.DataFrame): The DataFrame containing the necessary columns ('year_stop', 'month_stop', 'hour').
+
+    Returns:
+    None
+    """
+    # Temporal analysis by month
+    monthly_counts = df.groupby(['year_stop', 'month_stop']).size().unstack(fill_value=0)
+    plt.figure(figsize=(12, 8))
+    sns.heatmap(monthly_counts, cmap='YlGnBu', annot=True, fmt='d')
+    plt.title('Number of Stops Per Month Over the Years')
+    plt.xlabel('Month')
+    plt.ylabel('Year')
+    plt.show()
+
+    # Hourly distribution of stops
+    plt.figure(figsize=(25, 12))
+    ax = sns.countplot(x='hour', data=df)
+    for p in ax.patches:
+        ax.annotate(f'{p.get_height()}', (p.get_x() + p.get_width() / 2., p.get_height()),
+                    ha='center', va='center', xytext=(0, -30), textcoords='offset points', rotation='vertical')
+    ax.set_xticks(range(24))
+    ax.set_xticklabels(range(1, 25))
+    plt.title('Hourly Distribution of Stops')
+    plt.show()
+
+plot_temporal_analysis(df)
+
 
 # Age vs Reason action
 data_2014 = pd.read_csv("../dataset/vehicle_stops_2014_datasd.csv")
