@@ -67,11 +67,10 @@ To run this project locally, follow these steps:
 2. notebook folder: Conatins all the notebooks of the Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
 3. python files: This folder contains the .py files of Data cleaning, Explorary Data Analysis, Temporal Analysis, Geospatial Analysis and Demographic Analysis.
 4. final-plot.ipynb: This notebook contains the code for all the plots given in our presenation.
-5. main.ipynb: This notebook contains the consilated codes for all the analysis we have done.
-6. main.py: This the .py file for main.ipynb file, which contains the consilated codes for all the analysis we have done
-7. final-presentation.pdf: This is our final presenation.
-8. ECE 143 - Project proposal.pdf: This is our project proposal
-9. README file
+5. main.py: This the .py file for main.ipynb file, which contains the consilated codes for all the analysis we have done
+6. final-presentation.pdf: This is our final presenation.
+7. ECE 143 - Project proposal.pdf: This is our project proposal
+8. README file
 
 ```text
 Files/
@@ -117,7 +116,6 @@ Files/
 ├── final-plot.ipynb
 ├── final-presentation.pdf
 ├── main.py
-├── main.ipynb
 └── README.md  
 ```
 
